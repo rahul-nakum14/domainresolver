@@ -18,6 +18,27 @@ elif args.operation == "div":
 else:
     print("unsupported xd")
 
+#     import argparse
+# import os
+
+# parser = argparse.ArgumentParser()
+# parser.add_argument("num1",help="Enter num input file")
+# parser.add_argument("-o","--output",help="Write output to file")
+# # parser.add_argument("--operation",help="Enter Opearation")
+# # parser.add_argument("This from opt.",metavar='Helo from option args.....')
+# # parser.add_argument('--foo', metavar='YYY')
+# args = parser.parse_args()
+
+# if args.operation == "add":
+#     print("Result is",args.num1+args.num2)
+# elif args.operation == "sub":
+#     print("Result is",args.num1-args.num2)
+# elif args.operation == "div":
+#     print("Result is",args.num1/args.num2)
+# else:
+#     print("unsupported xd")
+
+
 
 
 
