@@ -7,12 +7,13 @@ import os
 
 RED='\033[0;31m'
 NC='\033[0m'
-BLUE = '\033[0;34m'
-CYAN = '\033[0;36m'
-LRED = '\033[1;31m'
+BLUE = '\033[0;94m'
+CYAN = '\033[0;96m'
+LRED = '\033[1;91m'
+Green= '\033[0;92m'  
 
 parser = argparse.ArgumentParser()
-parser.add_argument("-i",metavar="input domain file")
+parser.add_argument("-i","--input",help="input domain file")
 parser.add_argument("-o","--output",help="Write output to file")
 args = parser.parse_args()
 outputdata = []
@@ -36,7 +37,7 @@ def main():
                         outputdata.append(f"{CYAN}{request_url.url}{NC}{RED}{[code1]}{NC} {BLUE}{[title1]}{NC}")
                         
                     except Exception:
-                        print(f"{LRED}{domain} [Something Went Wrong] {NC}")
+                        print(f"{Green}{domain} [Please take a look Manually.] {NC}")
                 else:
                         print(f"{LRED}{i.strip()} [Domain is not found] {NC}")
                         outputdata.append(f"{LRED}{i.strip()} [Domain is not found] {NC}")
@@ -45,7 +46,6 @@ def main():
                                 with open(args.output, 'w') as f:
                                         for i in outputdata:
                                                 f.write(i + '\n')
-
 
     except Exception as e:
         print("Provide domain file")
