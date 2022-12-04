@@ -19,9 +19,15 @@ options:
 
 domain.txt 
 ```
-facebook.com
-github.com
 stackoverflow.com
+github.com
+hackerone.com
+not-existdomain.com
+instagram.com
+youtube.com
+404errorpages.com
+linkedin.com
+bugcrowd.com 
 ```
 
 ```python script.py -i domain.txt -o output.txt```
