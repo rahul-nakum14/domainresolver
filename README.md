@@ -14,9 +14,6 @@ options:
                         Write output to file
 ```
 
-
-## Examples
-
 domain.txt 
 ```
 stackoverflow.com
@@ -30,7 +27,8 @@ linkedin.com
 bugcrowd.com 
 ```
 
+## Usage
 ```python script.py -i domain.txt -o output.txt```
 
-
+## Example
 ![Screenshot from 2022-12-04 17-21-06](https://user-images.githubusercontent.com/106817606/205488791-4cd933e6-d0da-43fa-b851-7164f76bffed.png)
