@@ -32,4 +32,13 @@ output.txt
 https://www.instagram.com/[200] ['Instagram']
 https://github.com/[200] ['GitHub: Let’s build from here · GitHub']
 https://stackoverflow.com/[200] ['Stack Overflow - Where Developers Learn, Share, & Build Careers']
+
+
+
+
+```
+#Preview
+
+```
+https://user-images.githubusercontent.com/106817606/205488375-79b7706a-4bf8-4fcc-a04b-fdce7f1667d5.mp4
 ```
