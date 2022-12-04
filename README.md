@@ -33,7 +33,4 @@ https://www.instagram.com/[200] ['Instagram']
 https://github.com/[200] ['GitHub: Let’s build from here · GitHub']
 https://stackoverflow.com/[200] ['Stack Overflow - Where Developers Learn, Share, & Build Careers']
 ```
-![Screenshot from 2022-12-04 17-19-44](https://user-images.githubusercontent.com/106817606/205488723-278451c3-a45b-4eaa-950b-5c37ee3ff897.png)
-
-
-
+![Screenshot from 2022-12-04 17-21-06](https://user-images.githubusercontent.com/106817606/205488791-4cd933e6-d0da-43fa-b851-7164f76bffed.png)
