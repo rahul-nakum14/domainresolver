@@ -12,7 +12,7 @@ CYAN = '\033[0;36m'
 LRED = '\033[1;31m'
 
 parser = argparse.ArgumentParser()
-parser.add_argument("-i",metavar="input domain file")
+parser.add_argument("-i","--input",help="Input domain file")
 parser.add_argument("-o","--output",help="Write output to file")
 args = parser.parse_args()
 outputdata = []
