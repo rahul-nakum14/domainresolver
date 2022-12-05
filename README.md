@@ -5,7 +5,7 @@ This is a simple python script to scrape domain information such as HTTP status 
 
 ## Installation
 
-```pip install -r requirement.txt```
+```pip install -r requirements.txt```
 
 ## Usage
 ```
