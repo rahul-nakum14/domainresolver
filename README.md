@@ -3,6 +3,10 @@
 This is a simple python script to scrape domain information such as HTTP status code and title. It takes a list of domains as input and outputs the information in the terminal as well as in a specified output file.
 
 
+## Installation
+
+```pip install -r requirement.txt```
+
 ## Usage
 ```
 python domain_scrapper.py -i <input_file> -o <output_file>
