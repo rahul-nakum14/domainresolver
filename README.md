@@ -1,39 +1,40 @@
-## Domainresolver
+## DomainScrapper
 
-Command line tool to display Status code And title on a list of domains..
+This is a simple python script to scrape domain information such as HTTP status code and title. It takes a list of domains as input and outputs the information in the terminal as well as in a specified output file.
 
-## Features
+
+## Usage
 ```
-usage: script.py [-h] [-i INPUT] [-o OUTPUT]
+python domain_scrapper.py -i <input_file> -o <output_file>
+```
+## Arguments
 
-options:
-  -h, --help            show this help message and exit
-  -i INPUT, --input INPUT
-                        Input domain file
-  -o OUTPUT, --output OUTPUT
-                        Write output to file
+ +   `-i` or `--input`: Input file containing the list of domains
+ +   `-o` or `--output`: Output file to write the domain information (optional)
+
+
+## Example
+```
+python domain_scrapper.py -i domain_list.txt -o domain_info.txt
 ```
 
 domain.txt 
 ```
-stackoverflow.com
-github.com
-hackerone.com
-not-existdomain.com
-instagram.com
-youtube.com
-404errorpages.com
-linkedin.com
-bugcrowd.com 
+google.com
+test.com
 ```
 
-## Usage
-```python script.py -i domain.txt -o output.txt```
+## Output
+The output will be in the following format:
+```
+<domain_url> <http_status_code> <title>
+```
+For example:
+```
+http://google.com [200] [Google]
+http://test.com [404] [Page Not Found]
+```
 
-```
-Note: Make Sure you have th following module is installed
-Sys,argparse,BeautifulSoup,requests,time
-```
 
 ## Example
 ![Screenshot from 2022-12-04 17-21-06](https://user-images.githubusercontent.com/106817606/205488791-4cd933e6-d0da-43fa-b851-7164f76bffed.png)
