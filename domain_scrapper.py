@@ -3,7 +3,6 @@ import bs4
 import time
 import sys
 import argparse
-import os
 import threading
 
 RED='\033[0;31m'
